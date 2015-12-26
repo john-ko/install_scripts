@@ -1,0 +1,4 @@
+#
+apt-get update && upgrade -y
+
+apt-get install apache2
