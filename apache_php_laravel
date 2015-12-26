@@ -1,4 +1,7 @@
-#
-apt-get update && upgrade -y
+# update and upgrade
+# apt-get update && upgrade -y #for temp
 
-apt-get install apache2
+# install apps
+apt-get install apache2 -y
+
+apt-get install mysql-server php5-mysql -y
