@@ -1,7 +1,14 @@
 #!/bin/bash
 
+# NVIDIA graphics drivesr 358.16 for ubuntu 15.10, 14.04
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
 # update and upgrade
 sudo apt-get update && upgrade -y
+
+# NVIDIA video card drivers
+sudo apt-get install nvidia-358 nvidia-settings
+# to uninstall ~$ apt-get purge nvidia*
 
 # git
 sudo apt-get install git -y
