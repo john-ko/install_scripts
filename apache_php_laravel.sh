@@ -1,5 +1,5 @@
 # update and upgrade
-# apt-get update && upgrade -y #for temp
+apt-get update && upgrade -y
 
 # install apps
 apt-get install apache2 -y
